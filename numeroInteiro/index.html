@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icons8-números-30.png" type="image/png">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Números Inteiros</title>
+</head>
+<body>
+    <header>
+        <h1>Números Inteiros</h1>
+    </header>
+
+    <main>
+        <ul>
+            <li>
+                <label for="numero">Informe um número inteiro:</label>
+                <input type="number" name="numero" id="numero" required autofocus placeholder="Digite um número inteiro">
+            </li>
+            <li>
+                <button type="submit" onclick="resposta()">Resposta</button>
+            </li>
+            <li>
+                <p class="resposta" id="resultado"></p>
+                <p class="resposta" id="positivoNegativo"></p>
+                <p class="resposta" id="antecessor"></p>
+                <p class="resposta" id="dobro"></p>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Thayná</p>
+    </footer>
+    <script src="js/inteiro.js"></script>
+    
+</body>
+</html>

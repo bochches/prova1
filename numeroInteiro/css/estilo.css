@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/wp1844028.jpg);
+    background-repeat: no-repeat;
+    font-size: 23px;
+}
+
+header,
+main{
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(78, 91, 206, 0.267);
+}
+
+header{
+    margin-top: 230px;
+    padding-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Dancing Script', cursive;
+    display: block;
+    color: aliceblue;
+    text-shadow: 3px 2px 3px rgba(43, 85, 119, 0.699);
+    padding-left: 20px;
+    padding-bottom: 12px;
+    font-size: 3em;
+}
+
+label{
+    text-align: center;
+    margin: 15px;
+    display: block;
+    color: beige;
+    text-shadow: 3px 2px 3px rgba(43, 85, 119, 0.699);
+    padding-left: 20px;
+    padding-bottom: 12px;
+}
+
+footer{
+    width: 200px;
+    margin: 0 auto;
+    line-height: 100px;
+    font-size: 12px;
+    padding-left: 500px;
+    padding-top: 10px;
+    text-shadow: 2px 1px 1px rgba(184, 135, 233, 0.863);
+    color: cadetblue;
+}
+
+input{
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 8px;
+    width: 180px;
+    line-height: 37px;
+    text-align: center;
+}
+
+button{
+    background-color: rgba(150, 150, 172, 0.829);
+    color: rgba(68, 27, 11);
+    font-size: 0.8em;
+    border-radius: 9px;
+    width: 110px;
+    margin: 10px;
+    padding: 6px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.resposta{
+    color: azure;
+    font-size: 20px;
+    text-shadow: 2px 2px 1px rgba(38, 109, 167, 0.699);
+}
+
+li{
+    list-style: none;
+}
